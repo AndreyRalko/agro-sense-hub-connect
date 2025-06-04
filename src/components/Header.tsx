@@ -1,7 +1,8 @@
 
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Bell, Settings, User, Search } from 'lucide-react';
+import { Bell, Settings, User } from 'lucide-react';
+import { SidebarTrigger } from '@/components/ui/sidebar';
 
 const Header = () => {
   return (
@@ -9,14 +10,10 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-agro-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">SC</span>
-              </div>
-              <div>
-                <h1 className="text-xl font-bold text-agro-900">Smart Centre</h1>
-                <p className="text-xs text-agro-600">ООО "АгроТех"</p>
-              </div>
+            <SidebarTrigger />
+            <div>
+              <h2 className="text-lg font-semibold text-agro-900">Центр управления</h2>
+              <p className="text-sm text-agro-600">Мониторинг и контроль агрооперций</p>
             </div>
           </div>
 

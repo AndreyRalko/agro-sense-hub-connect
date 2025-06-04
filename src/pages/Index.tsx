@@ -1,10 +1,9 @@
-
 import { Layout } from '@/components/Layout';
 import { Card } from '@/components/ui/card';
-import { WeatherCard } from '@/components/WeatherCard';
-import { FieldMap } from '@/components/FieldMap';
-import { MachineryStatus } from '@/components/MachineryStatus';
-import { YieldAnalytics } from '@/components/YieldAnalytics';
+import WeatherCard from '@/components/WeatherCard';
+import FieldMap from '@/components/FieldMap';
+import MachineryStatus from '@/components/MachineryStatus';
+import YieldAnalytics from '@/components/YieldAnalytics';
 
 const Index = () => {
   return (

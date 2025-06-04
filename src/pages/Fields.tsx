@@ -1,6 +1,5 @@
-
 import { Card } from '@/components/ui/card';
-import { FieldMap } from '@/components/FieldMap';
+import FieldMap from '@/components/FieldMap';
 
 const Fields = () => {
   return (

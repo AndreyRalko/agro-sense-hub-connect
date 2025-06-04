@@ -1,6 +1,5 @@
-
 import { Card } from '@/components/ui/card';
-import { MachineryStatus } from '@/components/MachineryStatus';
+import MachineryStatus from '@/components/MachineryStatus';
 
 const Machinery = () => {
   return (

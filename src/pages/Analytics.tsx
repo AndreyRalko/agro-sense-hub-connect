@@ -1,6 +1,5 @@
-
 import { Card } from '@/components/ui/card';
-import { YieldAnalytics } from '@/components/YieldAnalytics';
+import YieldAnalytics from '@/components/YieldAnalytics';
 
 const Analytics = () => {
   return (
